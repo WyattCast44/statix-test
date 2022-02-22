@@ -1,0 +1,12 @@
+{
+    "name": "wyatt/statix-test",
+    "authors": [
+        {
+            "name": "Wyatt Castaneda",
+            "email": "wyatt.castaneda@gmail.com"
+        }
+    ],
+    "require": {
+        "wyattcast44/statix": "dev-main"
+    }
+}
