@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0c3340fc07fe0a6804d4200b0ca142a",
+    "content-hash": "37754959c22d1405605d1a70cee9e382",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -4575,10 +4575,16 @@
         {
             "name": "wyattcast44/statix",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyattCast44/statix.git",
+                "reference": "e407d628f37867be7fcdedc5b73daa0ff856ab69"
+            },
             "dist": {
-                "type": "path",
-                "url": "./../statix",
-                "reference": "61e37e0c5aecfffa6405bf214b2fb641d98313ce"
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyattCast44/statix/zipball/e407d628f37867be7fcdedc5b73daa0ff856ab69",
+                "reference": "e407d628f37867be7fcdedc5b73daa0ff856ab69",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.4",
@@ -4606,21 +4612,17 @@
                 "mockery/mockery": "^1.4.4",
                 "phpunit/phpunit": "^9.5.10"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
-                "psr-4": {
-                    "Statix\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
-            },
-            "autoload-dev": {
+                ],
                 "psr-4": {
-                    "App\\": "tests/example-app/app",
-                    "Tests\\": "tests/"
+                    "Statix\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4630,9 +4632,11 @@
                     "email": "wyatt.castaneda@gmail.com"
                 }
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/WyattCast44/statix/issues",
+                "source": "https://github.com/WyattCast44/statix/tree/main"
+            },
+            "time": "2022-02-22T03:26:28+00:00"
         }
     ],
     "packages-dev": [],
