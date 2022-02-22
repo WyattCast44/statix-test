@@ -8,12 +8,5 @@
     ],
     "require": {
         "wyattcast44/statix": "dev-main"
-    }, 
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./../statix",
-            "options": {}
-        }
-    ]
+    }
 }
